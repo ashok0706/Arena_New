@@ -1,0 +1,113 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 60px;
+    position: sticky;
+    background-color: white;
+    /* /* position: fixed; */
+    top: 0; 
+    /* font-family: Raleway, sans-serif; */
+    /* border: 1px solid black; */
+    font-family: Arial, sans-serif;
+    color: #333;
+    z-index: 10;
+    height: 120px;
+
+}
+
+
+
+.logo {
+    height: 24px;
+    width: auto;
+}
+
+.navbarli {
+    transform: translateX(-30px);
+    list-style-type: none;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.navbarli li a {
+
+display: flex;
+align-items: center;
+    font-size: 17px;
+    line-height: 150%;
+    color: (161, 162, 162);
+    padding: 44px 16px;
+    margin: 5px;
+}
+
+.logo {
+    font-size: 50px;
+
+    font-weight: 600;
+  
+
+}
+
+.Signup a {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    /* padding: 10px 1px; */
+    border-radius: 5px;
+    margin-left: 23px;
+
+    border-radius: 6px;
+    padding: 12px 18px;
+    font-size: 17px;
+    font-weight: 530;
+    line-height: 24px;
+
+}
+
+.login a {
+    border: 1px solid black;
+ 
+    border-radius: 6px;
+    padding: 12px 18px;
+    font-size: 17px;
+    font-weight: 530;
+    line-height: 24px;
+
+}
+
+.login a:hover {
+    color: blue;
+    border-color: blue;
+    
+}
+
+.contact:hover, .navbarli:hover{
+    cursor: pointer;
+}
+
+.contact {
+    justify-content: space-evenly;
+    list-style-type: none;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.contact li:first-child {
+    margin-right: 30px;
+}
+
+.soon{
+    color: #9c9c9c;
+    background-color: #eee;
+    border-radius: 100px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
+    line-height: 18px;
+}

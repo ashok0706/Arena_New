@@ -1,0 +1,79 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+  
+background-color: black;
+color: #f0f8ff;
+padding:55px 50px ;
+padding-bottom: 80px;
+ font-family: Poppins,sans-serif;
+
+}
+
+.footer{
+    display: flex;
+ 
+    justify-content:space-around;
+background-color: black;
+color: #f0f8ff;
+margin: 30px;
+
+}
+.footerli {
+    list-style-type: none;
+}
+.footerli li:first-child {
+  color: #fff;
+  margin-bottom: 32px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  font-family: Poppins,sans-serif;
+  
+  
+  }
+
+  .footerli li{
+    font-family: Poppins,sans-serif;
+    margin-bottom: 16px;
+    font-size: 16.5px;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none;
+    /* margin: 18px;
+    font-size: 18px; */
+
+  }
+  .Copyright{
+    text-align: center;
+   
+    color: #7d7f80;
+    margin-top: 42px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+  }
+.logo{
+    font-family: Lexend; /* Heading */
+    font-size: 50px; 
+    font-weight: 700; 
+    line-height: 44px; 
+    margin-bottom: 20px;
+    color: #f0f8ff;
+
+}
+ .footerli li:hover{
+    color:  #7739eb;
+    cursor: pointer;
+ }
+  .arena p{
+    color: #fff;
+    margin-bottom: 56px;
+    font-size: 13px;
+    line-height: 20px;
+    /* font-family: Raleway ,sans-serif; */
+    /* font-family: Helvetica Neue, Helvetica, Ubuntu, Segoe UI, Verdana, sans-serif; */
+    font-weight: 520;
+  }
