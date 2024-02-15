@@ -1,15 +1,18 @@
-import Fstyle from '@/app/Styles/footer.module.css';
+import { FaFacebookF, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
+import { RiInstagramFill } from 'react-icons/ri';
+import FooterStyle from './footer.module.css';
 
 function page() {
   return (
     <div>
-      <section className={Fstyle.section}>
-        <div className={Fstyle.footer}>
-          <div className={Fstyle.arena}>
+      <section className={FooterStyle.container}>
+        <div className={FooterStyle.footer}>
+          <div className={FooterStyle.arena}>
             <div>
               <img
                 src=" https://assets-global.website-files.com/627bfc08107c6a6fc647c28b/650bd9e21df325d575246318_white-logo.svg"
-                className={Fstyle.logo}
+                className={FooterStyle.logo}
               />
             </div>
             <p>
@@ -17,9 +20,16 @@ function page() {
               communities to engage and <br />
               connect in a digital world.
             </p>
+            <div className={FooterStyle.icons}>
+              <FaFacebookF />
+              <FaXTwitter />
+              <RiInstagramFill />
+              <FaLinkedinIn />
+              <FaYoutube />
+            </div>
           </div>
           <div>
-            <ul className={Fstyle.footerli}>
+            <ul className={FooterStyle.footerList}>
               <li>Products</li>
               <li>Commerce</li>
               <li>Live Blog</li>
@@ -29,7 +39,7 @@ function page() {
             </ul>
           </div>
           <div>
-            <ul className={Fstyle.footerli}>
+            <ul className={FooterStyle.footerList}>
               <li>Company</li>
               <li>About us</li>
               <li>Contact Sales</li>
@@ -38,14 +48,14 @@ function page() {
             </ul>
           </div>
           <div>
-            <ul className={Fstyle.footerli}>
+            <ul className={FooterStyle.footerList}>
               <li>Support</li>
               <li>Contact us</li>
               <li>Help center</li>
             </ul>
           </div>
           <div>
-            <ul className={Fstyle.footerli}>
+            <ul className={FooterStyle.footerList}>
               <li>Solutions</li>
               <li>Media &amp; Publishing</li>
               <li>Second Screen</li>
@@ -55,8 +65,8 @@ function page() {
             </ul>
           </div>
         </div>
-        <div className={Fstyle.Copyright}>
-          Copyright © 2024 Arena | All Rights Reserved | Terms and Conditions |
+        <div className={FooterStyle.copyRight}>
+          Copyright 2024 Arena | All Rights Reserved | Terms and Conditions |
           Privacy Policy
         </div>
       </section>

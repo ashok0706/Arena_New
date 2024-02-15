@@ -1,13 +1,13 @@
-import Bstyle from '@/app/Styles/banner.module.css';
+import BannerStyle from './banner.module.css';
 
 function page() {
   return (
-    <div className={Bstyle.banner}>
+    <div className={BannerStyle.banner}>
       <div>
         Introducing <strong>Commerce AI</strong> - Convert Every Conversation
         into Transactions
       </div>
-      <button className={Bstyle.butt}>Learn More</button>
+      <a className={BannerStyle.button}>Learn More</a>
     </div>
   );
 }

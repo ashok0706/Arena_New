@@ -1,0 +1,108 @@
+.badges , .audience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    padding: 0px;
+}
+.buttons{
+    display: flex;
+    
+}
+.audience{
+    background-image: linear-gradient(#9f00ff,#590edf 21%,#341cd2 54%,#2057e2 84%,#00b9fd);
+    padding-top: 70px;
+    padding-bottom: 50px;
+   width: 82%;
+   border-radius: 22px;
+}
+.icons{
+    /* display: grid;
+    grid-template-columns: repeat(8, 1fr); /* 4 columns each taking 1 fraction of the available space */
+   
+    /* gap: 0px; */
+   width: 60%;
+    display: flex;
+    justify-content:space-around;
+}
+.icons img{
+    width: auto;
+    height: 90px; 
+
+    margin: 10px
+}
+
+.title{
+    max-width: 910px;
+    color: #fff;
+    text-align: center;
+    
+    margin-bottom: 40px ;
+    font-family: Poppins,sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+}
+.demo{
+    width: 160px;
+    height: 25px;
+    background-color: white;
+ 
+    text-align: center;
+    border: 1px solid #9124ff;
+    color: #9124ff;
+    border-radius: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 15px 23px;
+    font-family: Poppins,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+    
+    display: flex;
+    position: relative;
+    box-shadow: 0 4px 25px rgba(145, 36, 255, 0.5);
+
+}
+.demo:hover{
+    background-color: #9124ff;
+    color:#fff;
+    cursor: pointer;
+    
+}
+.version:hover {
+    background-color: #fff;
+    color: #9124ff;
+    cursor: pointer;
+}
+.version{
+    width: 160px;
+    height: 25px;
+    background-color: #9124ff;
+    box-shadow: 0 4px 25px rgba(145, 36, 255, 0.5); 
+    text-align: center;
+    border: 1px solid #9124ff;
+    color:white;
+    border-radius: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    padding: 15px 75px;
+    font-family: Poppins,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+}
+.link{
+    color: #fff;
+    text-align: start;
+    align-self: auto;
+    font-size: 20px;  
+    padding-top: 24px;
+    padding-left: 0;
+    display: block;
+    text-decoration: underline;
+}

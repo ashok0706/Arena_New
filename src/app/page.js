@@ -1,14 +1,22 @@
-import Home1 from './home/section1';
-import Section2 from './home/Section2';
-import Section3 from './home/section3';
-import Section4 from './home/section4';
+import Badges from './home/badges/page';
+import Blogs from './home/blogs/page';
+import Brands from './home/brands/page';
+import Customers from './home/customers/page';
+import Goals from './home/goals/page';
+import Hero from './home/hero/page';
+import LiveChat from './home/livechat/page';
+import Package from './home/packages/page';
 export default function Home() {
   return (
     <div>
-      <Home1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
+      <Hero />
+      <Customers />
+      <LiveChat />
+      <Goals />
+      <Brands />
+      <Package />
+      <Blogs />
+      <Badges />
     </div>
   );
 }

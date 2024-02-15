@@ -1,22 +1,23 @@
-import Section1 from '@/app/Styles/homeStyles/section1.module.css';
-import Section3 from '@/app/Styles/homeStyles/section3.module.css';
-
-function section3() {
+import Hero from '@/app/home/hero/hero.module.css';
+// import Section3 from '@/app/Styles/homeStyles/section3.module.css';
+import LiveChat from './liveChat.module.css';
+// import Hero from
+function page() {
   return (
-    <div className={Section3.section3}>
-      <div className={Section3.title}>
+    <div className={LiveChat.container}>
+      <div className={LiveChat.title}>
         Add Audience Engagement Features To Your <br /> Website, App, Event
         &amp; More
       </div>
-      <div className={Section3.grid_container}>
-        <div className={Section3.grid_item}>
-          <div className={Section3.sub_title}>Arena Live Chat</div>
-          <div className={Section3.text}>
+      <div className={LiveChat.grid_container}>
+        <div className={LiveChat.grid_item}>
+          <div className={LiveChat.sub_title}>Arena Live Chat</div>
+          <div className={LiveChat.text}>
             Arena lets you easily create Live Chat experiences
             <br /> that drive engagement and conversions on any
             <br /> platform you manage.
           </div>
-          <div className={Section1.seeall}>
+          <div className={Hero.seeall}>
             <a>Learn more about Live Chat &gt;</a>
           </div>
         </div>
@@ -69,12 +70,12 @@ function section3() {
           </video>
         </div>
         <div className="grid-item">
-          <div className={Section3.sub_title}>Arena Live Blog</div>
-          <div className={Section3.text}>
+          <div className={LiveChat.sub_title}>Arena Live Blog</div>
+          <div className={LiveChat.text}>
             Arena lets anyone create Live Blog experiences <br />
             that increase engagement, conversions and SEO.
           </div>
-          <div className={Section1.seeall}>
+          <div className={Hero.seeall}>
             <a>Learn more about Live Blog</a>
           </div>
         </div>
@@ -83,4 +84,4 @@ function section3() {
   );
 }
 
-export default section3;
+export default page;

@@ -1,28 +1,30 @@
-import Hstyle from '@/app/Styles/homeStyles/section1.module.css';
+// import Hstyle from '@/app/Styles/homeStyles/section1.module.css';
 
-export default function home1() {
+import Hero from './hero.module.css';
+
+export default function page() {
   return (
-    <div className={Hstyle.container}>
-      <div className={Hstyle.boost}>
-        <div className={Hstyle.title}>
+    <div className={Hero.container}>
+      <div className={Hero.boost}>
+        <div className={Hero.title}>
           Boost audience <br />
           brengagement &amp; <br />
           conversions
         </div>
-        <div className={Hstyle.text}>
+        <div className={Hero.text}>
           Arena helps brands create meaningful conversations and <br />{' '}
           transition them into transactions with Commerce AI, Live Blog <br />{' '}
           and Live Chat.
         </div>
-        <div className={Hstyle.buttons}>
-          <a className={Hstyle.btn1}>Get a Demo</a>
-          <a className={Hstyle.btn2}>Get a Free Version</a>
+        <div className={Hero.buttons}>
+          <a className={Hero.demo}>Get a Demo</a>
+          <a className={Hero.version}>Get a Free Version</a>
         </div>
-        <div className={Hstyle.seeall}>
+        <div className={Hero.seeall}>
           <a>See all packeges and pricing</a>
         </div>
       </div>
-      <div className={Hstyle.video}>
+      <div className={Hero.video}>
         <video
           id="2f16b940-065a-d2d4-de7b-66f0d45ba94f-video"
           autoPlay

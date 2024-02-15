@@ -1,12 +1,12 @@
-import Section from '@/app/Styles/homeStyles/section2.module.css';
+import CustomerStyle from './cutomer.module.css';
 
-function Section2() {
+function page() {
   return (
-    <div className={Section.section2}>
-      <div className={Section.text}>
+    <div className={CustomerStyle.container}>
+      <div className={CustomerStyle.text}>
         Trusted By Thousands of Customers in 100+ Countries
       </div>
-      <div className={Section.logos}>
+      <div className={CustomerStyle.logos}>
         <img src="https://assets-global.website-files.com/627bfc08107c6a6fc647c28b/6282e41800792fdc101d9759_logo%20vans.svg" />
         <img />
         <img src="https://assets-global.website-files.com/627bfc08107c6a6fc647c28b/6282e41800792f712c1d975c_logo%20vimeo.svg" />
@@ -26,4 +26,4 @@ function Section2() {
   );
 }
 
-export default Section2;
+export default page;

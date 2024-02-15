@@ -24,6 +24,7 @@ display: flex;
     font-weight: 600;
     line-height: 110%;
 }
+
 .text{
     width: 100%;
     max-width: none;
@@ -38,7 +39,7 @@ display: flex;
 
 }
 
-.btn1{
+.demo{
 
     width: 160px;
     height: 25px;
@@ -62,17 +63,17 @@ display: flex;
     position: relative;
     box-shadow: 0 4px 25px rgba(145, 36, 255, 0.5);
 }
-.btn1:hover{
+.demo:hover{
     background-color: #9124ff;
     color: white;
     cursor: pointer;
 }
-.btn2:hover{
+.version:hover{
     background-color: white;
     color: #9124ff;
     cursor: pointer;
 }
-.btn2{
+.version{
     /* min-width: 0; */
     object-fit: fill;
     width: 160px;

@@ -11,17 +11,16 @@
     color: white;
     background-image: linear-gradient(to right, #000000,  #7739eb, #f368ec, #000000);
     
-    font-size: 15px;
-    font-weight: 545;
+    font-size: 14px;
+    font-weight: 500;
     font-family: Poppins,sans-serif;
-    line-height: 1.8;
-    letter-spacing: -.02em;
+    /* line-height: 1.8;
+    letter-spacing: -.02em; */
 }
 
 
-.butt{
+.button{
     color: #fff;
-    white-space: nowrap;
     background-color: #000;
     border-radius: 6px;
     justify-content: center;
@@ -29,9 +28,9 @@
     margin-left: 40px;
     padding: 8px 14px;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
 }
-.butt:hover{
+.button:hover{
     background-color: white;
     color:  #7739eb;
 }

@@ -1,14 +1,14 @@
-import Nstyle from '@/app/Styles/navbar.module.css';
 import { IoIosArrowDown } from 'react-icons/io';
+import Navstyle from './navbar.module.css';
 function navbar() {
   return (
-    <div className={Nstyle.navbar}>
+    <div className={Navstyle.navbar}>
       <img
-        className={Nstyle.logo}
+        className={Navstyle.logo}
         src=" https://assets-global.website-files.com/627bfc08107c6a6fc647c28b/627bfc2b16af103b1a59c035_logo-a.svg"
       />
       <div>
-        <ul className={Nstyle.navbarli}>
+        <ul className={Navstyle.navbarList}>
           <li>
             <a>
               Products <IoIosArrowDown />
@@ -22,7 +22,7 @@ function navbar() {
           </li>
           <li>
             <a>
-              Templates<span className={Nstyle.soon}>soon</span>
+              Templates<span className={Navstyle.sticker}>soon</span>
             </a>
           </li>
           <li>
@@ -37,14 +37,14 @@ function navbar() {
         </ul>
       </div>
       <div>
-        <ul className={Nstyle.contact}>
+        <ul className={Navstyle.contact}>
           <li>
             <a>Contact Sales</a>
           </li>
-          <li className={Nstyle.login}>
+          <li className={Navstyle.login}>
             <a>Login</a>
           </li>
-          <li className={Nstyle.Signup}>
+          <li className={Navstyle.signup}>
             <a>Sign up</a>
           </li>
         </ul>

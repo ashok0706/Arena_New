@@ -1,4 +1,4 @@
-.section{
+.container{
     display: flex;
     flex-direction: column;
     justify-content:space-around;
@@ -20,10 +20,10 @@ color: #f0f8ff;
 margin: 30px;
 
 }
-.footerli {
+.footerList {
     list-style-type: none;
 }
-.footerli li:first-child {
+.footerList li:first-child {
   color: #fff;
   margin-bottom: 32px;
   font-size: 20px;
@@ -34,7 +34,7 @@ margin: 30px;
   
   }
 
-  .footerli li{
+  .footerList li{
     font-family: Poppins,sans-serif;
     margin-bottom: 16px;
     font-size: 16.5px;
@@ -45,7 +45,7 @@ margin: 30px;
     font-size: 18px; */
 
   }
-  .Copyright{
+  .copyRight{
     text-align: center;
    
     color: #7d7f80;
@@ -60,20 +60,27 @@ margin: 30px;
     font-size: 50px; 
     font-weight: 700; 
     line-height: 44px; 
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #f0f8ff;
 
 }
- .footerli li:hover{
+ .footerList li:hover{
     color:  #7739eb;
     cursor: pointer;
  }
   .arena p{
     color: #fff;
     margin-bottom: 56px;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 20px;
     /* font-family: Raleway ,sans-serif; */
     /* font-family: Helvetica Neue, Helvetica, Ubuntu, Segoe UI, Verdana, sans-serif; */
-    font-weight: 520;
+    font-weight: 400;
+  }
+
+  .icons{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
   }
